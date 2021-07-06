@@ -163,10 +163,10 @@ function div_show2() {
       slider.appendChild(slider.firstElementChild);
     }
     
-    slider.style.transition = 'none';
+    slider.style.transition = "none";
     slider.style.transform = 'translate(0)';
     setTimeout(() => {
-      slider.style.transition = 'all 0.5s';
+      slider.style.transition = 'all 1s';
     })
   }, false);
 
